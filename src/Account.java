@@ -3,6 +3,9 @@ public class Account {
     private String password ;
     private int balance ;
 
+    public Account() {
+    }
+
     public Account(String username, String password, int balance) {
         this.username = username ;
         this.password = password ;
